@@ -8,7 +8,7 @@ The code is related to 'Practical Attacks of Round-Reduced SIMON Based on Deep L
 The code is also related to 'Improve Neural Distinguisher for Cryptanalysis' (https://eprint.iacr.org/2021/1017).
 If you want to use the code, please refer to 'Practical Attacks of Round-Reduced SIMON Based on Deep Learning' or 'Improve Neural Distinguisher for Cryptanalysis'.
 """
-#Before running this Python file, please run 'wrong_key_rank.py' to generate 'H_GPUx_Mean.npy' or 'H_GPUx_Std.npy'
+#Before running this Python file, please run 'wrong_key_rank.py' to generate 'H_GPUx_Mean.npy' and 'H_GPUx_Std.npy'
 import os
 import numpy as np
 from math import log2
