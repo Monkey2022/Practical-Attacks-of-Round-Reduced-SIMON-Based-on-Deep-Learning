@@ -53,7 +53,7 @@ Plot_Parameter={
 
 
 for i in range(len(Std)):
-    plt.plot(x,Std[i], marker=Plot_Parameter['marker'][i],markersize=6,color=Plot_Parameter['color'][i], linewidth=2,linestyle=Plot_Parameter['linestyle'][i]) # 绘制，指定颜色、标签、线宽，标签采用latex格式
+    plt.plot(x,Std[i], marker=Plot_Parameter['marker'][i],markersize=6,color=Plot_Parameter['color'][i], linewidth=2,linestyle=Plot_Parameter['linestyle'][i]) 
 plt.tick_params(labelsize=23) 
 font1 = {'family': 'Times New Roman', 'weight': 'normal', 'size': 23,}
 plt.legend(Plot_Parameter['Test'][:len(Std)],prop=font1,bbox_to_anchor=(1.01, 1), loc=2, borderaxespad=0)
