@@ -52,7 +52,7 @@ Plot_Parameter={
     }
 
 for i in range(len(Mean)):
-    plt.plot(x,Mean[i], marker=Plot_Parameter['marker'][i],markersize=6,color=Plot_Parameter['color'][i], linewidth=2,linestyle=Plot_Parameter['linestyle'][i]) # 绘制，指定颜色、标签、线宽，标签采用latex格式
+    plt.plot(x,Mean[i], marker=Plot_Parameter['marker'][i],markersize=6,color=Plot_Parameter['color'][i], linewidth=2,linestyle=Plot_Parameter['linestyle'][i]) # 
 
 
 plt.tick_params(labelsize=23) 
